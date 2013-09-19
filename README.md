@@ -6,6 +6,8 @@ by [Ben Nadel][1] (on [Google+][2])
 __*NOTE: This is a really old project that has not been updated in years. I
 have personally started to use Google's AngularJS and highly recommend it.*__
 
+__Demo:__ [View the online demo][4]
+
 CorMVC is a jQuery-powered Model-View-Controller (MVC) framework that can 
 aide in the development of single-page jQuery applications. It evolved out of
 my recent presentation, [Building Single-Page Applications Using jQuery And ColdFusion][3],
@@ -56,3 +58,4 @@ this foundation.
 [1]: http://www.bennadel.com
 [2]: https://plus.google.com/108976367067760160494?rel=author
 [3]: http://www.bennadel.com/blog/1730-Building-Single-Page-Applications-Using-jQuery-And-ColdFusion-With-Ben-Nadel-Video-Presentation-.htm
+[4]: http://bennadel.github.io/CorMVC
