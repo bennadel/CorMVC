@@ -3,8 +3,8 @@
 
 by [Ben Nadel][1] (on [Google+][2])
 
-*__NOTE:__ This is a really old project that has not been updated in years. I
-have personally started to use Google's AngularJS and highly recommend it.*
+__*NOTE: This is a really old project that has not been updated in years. I
+have personally started to use Google's AngularJS and highly recommend it.*__
 
 CorMVC is a jQuery-powered Model-View-Controller (MVC) framework that can 
 aide in the development of single-page jQuery applications. It evolved out of
@@ -16,7 +16,7 @@ CorMVC stands for: Client-Only-Required Model-View-Controller, and is my
 laboratory experiment in application architecture held completely seperate
 from server-side technologies.
 
-## corMVC Philosophy
+## CorMVC Philosophy
 
 Building frameworks in jQuery (or any other language for that matter) is very
 new to me; I don't claim to be any good at it. In fact, when I started looking 
