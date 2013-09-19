@@ -1,0 +1,24 @@
+{
+	"success": true,
+	"errors": [],
+	"data": [
+		{ "id": 1, "name": "Ben Nadel", "phone": "212-555-1234", "email": "ben.nadel@corMVC.com" },
+		{ "id": 2, "name": "Rey Bango", "phone": "212-555-2345", "email": "rey.bango@corMVC.com" },
+		{ "id": 3, "name": "Cody Lindley", "phone": "212-555-0393", "email": "cody.lindley@corMVC.com" },
+		{ "id": 4, "name": "Scott Gonzalez", "phone": "212-555-0908", "email": "scott.gonzalez@corMVC.com" },
+		{ "id": 5, "name": "Rebecca Murphey", "phone": "212-555-1433", "email": "rebecca.murphey@corMVC.com" },
+		{ "id": 6, "name": "Adam Sontag", "phone": "212-555-3948", "email": "adam.sontag@corMVC.com" },
+		{ "id": 7, "name": "Karl Swedberg", "phone": "212-555-9983", "email": "karl.swedberg@corMVC.com" },
+		{ "id": 8, "name": "Dan Wellman", "phone": "212-555-3434", "email": "dan.wellman@corMVC.com" },
+		{ "id": 9, "name": "John Resig", "phone": "212-555-7890", "email": "john.resig@corMVC.com" },
+		{ "id": 10, "name": "Paul Irish", "phone": "212-555-4311", "email": "paul.irish@corMVC.com" },
+		{ "id": 11, "name": "Ben Alman", "phone": "212-555-7829", "email": "ben.alman@corMVC.com" },
+		{ "id": 12, "name": "Bob Bonifield", "phone": "212-555-1248", "email": "bob.bonifield@corMVC.com" },
+		{ "id": 13, "name": "Vlad Filippov", "phone": "212-555-8282", "email": "vlad.filippov@corMVC.com" },
+		{ "id": 14, "name": "Jon Snook", "phone": "212-555-7894", "email": "jon.snook@corMVC.com" },
+		{ "id": 15, "name": "Jon Clark", "phone": "212-555-4561", "email": "jon.clark@corMVC.com" },
+		{ "id": 16, "name": "Elijah Manor", "phone": "212-555-4566", "email": "elijah.manor@corMVC.com" },
+		{ "id": 17, "name": "James Padolsey", "phone": "212-555-1591", "email": "james.padolsey@corMVC.com" },
+		{ "id": 18, "name": "Alex Sexton", "phone": "212-555-1236", "email": "alex.sexton@corMVC.com" }
+		]
+}

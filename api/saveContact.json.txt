@@ -1,0 +1,5 @@
+{
+	"success": true,
+	"errors": [],
+	"data": { "id": 1, "name": "Ben Nadel", "email": "ben@corMVC.com", "phone": "212-555-1111" }
+}

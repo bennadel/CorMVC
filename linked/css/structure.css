@@ -1,0 +1,159 @@
+
+body {
+	background-color: #1F1F1F ;
+	font-family: verdana, arial ;
+	font-size: 62.5% ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+
+
+#site-wrapper {}
+
+#site-header {
+	background-color: #2B1812 ;
+	background-image: url( "./images/site_header_background.jpg" ) ;
+	background-position: left top ;
+	background-repeat: repeat-x ;
+	height: 471px ;
+	overflow: hidden ;
+	}
+	
+#site-header-content {
+	margin: 0px auto 0px auto ;
+	width: 775px ;
+	}
+	
+#site-navigation {
+	border-bottom: 4px solid #482C21 ; 
+	font-size: 14px ;
+	height: 38px ;
+	list-style-type: none ;
+	margin: 0px 0px 8px 0px ;
+	padding: 29px 0px 0px 0px ;
+	}
+	
+#site-navigation li {
+	float: left ;
+	height: 30px ;
+	line-height: 30px ;
+	margin: 0px 15px 0px 0px ;
+	}
+	
+#site-navigation a {
+	color: #FFFFFF ;
+	float: left ;
+	padding: 0px 12px 0px 12px ;
+	text-decoration: none ;
+	text-transform: uppercase ;
+	zoom: 1 ;
+	}
+	
+#site-navigation a:active,
+#site-navigation a:focus {
+	outline-width: 0px 0px 0px 0px ;
+	outline: none ;
+	}
+	
+#site-navigation a:hover {
+	text-decoration: underline ;
+	}
+	
+#site-navigation li.bennadel {
+	float: right ;
+	margin-right: 0px ;
+	}	
+
+#site-navigation li.on a {
+	background-color: #9E0B0F ;
+	}
+	
+#site-navigation li.on a:hover {
+	text-decoration: none ;
+	}
+	
+#site-cormvc-billboard {
+	background-color: #FFFFFF ;
+	background-image: url( "./images/site_cormvc_billboard.jpg" ) ;
+	background-position: center center ;
+	background-repeat: no-repeat ;
+	height: 260px ;
+	overflow: hidden ;
+	padding: 11px 11px 11px 11px ;
+	text-indent: 9999px ;
+	width: 753px ;
+	white-space: nowrap ;
+	}
+
+#site-mvc-breakdown {
+	background-image: url( "./images/site_mvc_breakdown.jpg" ) ;
+	background-position: center center ;
+	background-repeat: no-repeat ;
+	height: 110px ;
+	overflow: hidden ;
+	padding: 0px 11px 0px 11px ;
+	text-indent: 9999px ;
+	width: 753px ;
+	white-space: nowrap ;
+	}
+	
+#site-body {
+	background-color: #FFFFFF ;
+	}
+	
+#site-body-content {
+	font-size: 1.2em ;
+	margin: 0px auto 0px auto ;
+	padding: 0px 0px 50px 0px ;
+	width: 732px ;
+	}
+	
+#primary-content-stages {
+	list-style-type: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+#primary-content-stages li.primary-content-stage {
+	display: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+#primary-content-stages li.current-primary-content-stage {
+	display: block ;
+	}
+
+ul.primary-content-views {
+	list-style-type: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+
+ul.primary-content-views li.primary-content-view {
+	display: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+ul.primary-content-views li.current-primary-content-view {
+	display: block ;
+	}
+	
+#site-footer {
+	background-image: url( "./images/site_footer_background.jpg" ) ;
+	background-position: left top ;
+	background-repeat: repeat-x ;
+	}
+	
+#site-footer-content {
+	color: #666666 ;
+	font-size: 1.1em ;
+	margin: 0px auto 0px auto ;
+	padding: 15px 10px 100px 10px ;
+	width: 755px ;
+	}
+	
+#site-footer a {
+	color: #666666 ;
+	}

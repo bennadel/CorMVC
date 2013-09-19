@@ -1,0 +1,443 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>corMVC - jQuery-Powered Client Model-View-Controller (MVC) Framework</title>
+	
+	<!-- Meta Data. -->
+	<meta name="Keywords" content="jquery,mvc,model view controller,application architecture,jquery framework"></meta>
+	<meta name="Description" content="CorMVC is a jQuery-powered Model-View-Controller (MVC) framework that can aide in the development of single-page, web-based applications. CorMVC stands for client-only-required model-view-controller and is designed to be lowest possible entry point to learning about single-page application architecture. It does not presuppose any server-side technologies, or a web server of any kind, and requires no more than a web browser to get up and running."></meta>
+
+	<!-- Stylesheets. -->
+	<link rel="stylesheet" type="text/css" href="./linked/css/standard.css"></link>
+	
+	<!-- jQuery and corMVC Application scripts. -->
+	<script type="text/javascript" src="./linked/js/app/jquery-1.4a1.js"></script>
+	<script type="text/javascript" src="./linked/js/app/corMVC.js"></script>
+
+	<!-- Controllers. -->
+	<script type="text/javascript" src="./linked/js/controller/content.js"></script> 
+	<script type="text/javascript" src="./linked/js/controller/contacts.js"></script>
+	
+	<!-- Model. -->
+	<script type="text/javascript" src="./linked/js/model/contact_service.js"></script>
+	<!--- <script type="text/javascript" src="./linked/js/model/contact_service_mock.js"></script>  --->
+	<script type="text/javascript" src="./linked/js/model/contact.js"></script>
+	
+	<!-- View. -->
+	<script type="text/javascript" src="./linked/js/view/contact_list.js"></script>
+	<script type="text/javascript" src="./linked/js/view/contact_form.js"></script>
+</head>
+<body>
+
+	<!-- BEGIN: Site Wrapper. -->
+	<div id="site-wrapper">
+		
+		<!-- BEGIN: Site Header. -->
+		<div id="site-header">
+			
+			<!-- BEGIN: Site Header Content. -->
+			<div id="site-header-content">
+			
+				<ul id="site-navigation">
+					<li>
+						<a href="#/home" rel="home">Home</a>
+					</li>
+					<li>
+						<a href="#/contacts" rel="contacts">Contacts</a>
+					</li>
+					<li>
+						<a href="#/documentation" rel="documentation">Documentation</a>
+					</li>
+					<li>
+						<a href="#/resources" rel="resources">Resources</a>
+					</li>
+					<li>
+						<a href="http://www.bennadel.com/projects/cormvc-jquery-framework.htm" target="_blank">Project</a>
+					</li>
+					<li class="bennadel">
+						<a href="http://www.bennadel.com" target="_blank">Ben Nadel</a>
+					</li>
+				</ul>
+				
+				<div id="site-cormvc-billboard">
+					corMVC - jQuery-Powered Client Model-View-Controller (MVC) Framework
+				</div>
+				
+				<div id="site-mvc-breakdown">
+					M/Model: Domain-specific representation of application data.
+					V/View: Renders the model into a form suitable for interaction.
+					C/Controller: Receives input and creates a response using Models &amp; Views.
+				</div>
+								
+			</div>
+			<!-- END: Site Header Content. -->
+			
+		</div>
+		<!-- END: Site Header. -->
+		
+		
+		<!-- BEGIN: Site Body. -->
+		<div id="site-body">
+			
+			<!-- BEGIN: Site Body Content. -->
+			<div id="site-body-content">
+			
+				
+				<!-- BEGIN: Primary Content Stages. -->
+				<ul id="primary-content-stages">
+				
+					<!-- BEGIN: Primary Content Stage :: Home. -->
+					<li rel="home" class="primary-content-stage current-primary-content-stage">
+					
+					
+						<h1>
+							Welcome to corMVC - My jQuery-powered Client MVC Framework.
+						</h1>
+					
+						<p>
+							CorMVC is a jQuery-powered Model-View-Controller (MVC) framework that 
+							can aide in the development of single-page jQuery applications. It evolved out of
+							my recent presentation, 
+							<a href="http://www.bennadel.com/blog/1730-Building-Single-Page-Applications-Using-jQuery-And-ColdFusion-With-Ben-Nadel-Video-Presentation-.htm" target="_blank">Building Single-Page Applications Using jQuery And ColdFusion</a>,
+							and will continue to evolve as I think more deeply about this type of application
+							architecture.
+						</p>
+						
+						<p>
+							CorMVC stands for:
+							<strong>C</strong>lient-<strong>O</strong>nly-<strong>R</strong>equired
+							<strong>M</strong>odel-<strong>V</strong>iew-<strong>C</strong>ontroller,
+							and is my laboratory experiment in application architecture held completely 
+							seperate from server-side technologies. 
+						</p>
+					
+						<h2>
+							corMVC Philosophy
+						</h2>
+						
+						<p>
+							Building frameworks in jQuery (or any other language for that matter) is
+							very new to me; I don't claim to be any good at it. In fact, when I started
+							looking into jQuery-based frameworks, I had no intention of creating my own. 
+							As I started to do my research, however, I quickly encountered two major problems
+							with what was avilable:
+						</p>
+						
+						<ol>
+							<li>
+								Most examples were <em>so small</em> that I could not see how they might be applied
+								to the kind of software I build.
+							</li>
+							<li>
+								Most frameworks were <em>enormous</em> and required command line utilities and
+								some additional server-side technology (like Ruby On Rails) just to experiment with.
+							</li>
+						</ol>
+						
+						<p>
+							I didn't even know how to begin learning. So, rather than wade through what was 
+							available, I decided to try and create something from scratch. What I came up with
+							is <strong>corMVC</strong>. The philosophies that I put into the corMVC framework 
+							are those that were hopefully a remedy to the problems I encoutered above:
+						</p>
+						
+						<ol>
+							<li>
+								<strong>A large sample application</strong>. This whole demo site (including the 
+								contacts section) runs off of corMVC as a single-page application.
+							</li>
+							<li>
+								<strong>No server required</strong>. This demo application does not require any additional 
+								server-side technologies. If you have a web browser, you can 
+								<em>download and run</em> this application immediately.
+							</li>
+							<li>
+								<strong>No building required</strong>. This framework does not require you to
+								build the application using scaffolding or any other command-line executables. 
+								You just download it and open it up in a browser.
+							</li>
+							<li>
+								<strong>Small Framework</strong>. This framework is very small (and <em>excessively
+								commented</em>). It doesn't do anything more than it is supposed to.
+							</li>
+						</ol>
+						
+						<p>
+							While I want to keep the corMVC framework as small as possible, I am sure that as I begin
+							to more fully understand the various needs of single-page applications, the framework 
+							will have to evolve as necessary. In the end though, I want the corMVC framework to be 
+							an aide and <em>not a constraint</em>- affording the programmer the freedom to pile their 
+							own jQuery magic on top of this foundation.
+						</p>
+						
+						<h2>
+							What If Javascript Is Not Enabled?
+						</h2>
+						
+						<p>
+							When dealing with Javascript and "progressive enhancement enthusiast," someone always asks
+							how this should work / degrade if the end user does not have Javascript enabled. 
+							While this might be a contentious answer, if your target user does not have Javascript
+							enabled, then I don't think they should be using a single-page application. That's like 
+							asking how a user should navigate a FLEX application if they don't have Flash installed;
+							it doesn't make sense. I'm <strong>not</strong> talking about building "pamphlet" sites here - 
+							I'm talking about building complex, user-experience-oriented applications.
+						</p>
+						
+					
+					</li>
+					<!-- END: Primary Content Stage :: Home. -->
+					
+					<!-- BEGIN: Primary Content Stage :: Contacts. -->
+					<li rel="contacts" class="primary-content-stage">
+					
+										
+						<!-- BEGIN: Contacts Content Views. -->
+						<ul id="contacts-content-views" class="primary-content-views">
+						
+							<!-- BEGIN: Contact List View. -->
+							<li id="contact-list-view" class="primary-content-view">
+								
+								
+								<h1>
+									Contacts
+								</h1>
+							
+								<p>
+									The contacts section is meant to demonstrate more complex interactions that 
+									involve the application's service layer (part of the <em>Model</em>) and potentially 
+									(thought not required in this demo) communication with the server.
+								</p>
+								
+								
+								<div id="contact-list-header">
+									
+									<form>
+										<label>Search:</label>
+										<input type="text" />
+									</form>
+									
+									<a href="#/contacts/add/">
+										<span class="contrast">Create</span>Contact &raquo;
+									</a>
+									
+								</div>
+								
+								<div id="contact-list-body" class="content-body">
+								
+									<ul id="contact-list">
+										<!-- To be filled dynamically. -->
+									</ul>
+								
+								</div>
+								
+								
+								<!-- BEGIN: Templates. -->
+								<script id="contact-list-item-template" type="application/template">
+								
+									<li class="contact clear">
+										
+										<div class="summary">
+											<a class="name">${name}</a>
+										</div>
+										
+										<div class="actions">
+											<a href="javascript:void( 0 )" class="more">More</a> &nbsp;|&nbsp;
+											<a href="#/contacts/edit/${id}" class="edit">Edit</a> &nbsp;|&nbsp;
+											<a href="#/contacts/delete/${id}" class="delete">Delete</a>
+										</div>
+										
+										<dl class="details clear">
+											<dt>
+												Name:
+											</dt>
+											<dd>
+												${name}
+											</dd>
+											<dt>
+												Phone:
+											</dt>
+											<dd>
+												${phone}
+											</dd>
+											<dt>
+												Email:
+											</dt>
+											<dd>
+												${email}
+											</dd>
+										</dl>
+										
+									</li>
+								
+								</script>
+								<!-- END: Template. -->
+								
+							
+							</li>
+							<!-- END: Contact List View. -->
+							
+							<!-- BEGIN: Contact Edit View. -->
+							<li id="contact-edit-view" class="primary-content-view">
+								
+								
+								<h1>
+									Add / Edit Contact
+								</h1>
+								
+								<p>
+									Please fill out the contact information below. 
+								</p>
+								
+								<form id="contact-form" class="data-form">
+								
+									<input type="hidden" name="id" value="0" />
+								
+									<div class="form-errors" style="display: none ;">
+										
+										<h3>
+											Please review the following:
+										</h3>
+										
+										<ul>
+											<!-- To be populated later. -->
+										</ul>
+										
+									</div>
+								
+									<fieldset>
+									
+										<div class="entry">
+											<label>
+												Name: (<em>required</em>)
+											</label>
+											<input type="text" name="name" class="xlarge branded-input" />
+										</div>
+										
+										<div class="entry">
+											<label>
+												Phone:
+											</label>
+											<input type="text" name="phone" class="xlarge branded-input" />
+										</div>
+										
+										<div class="entry">
+											<label>
+												Email:
+											</label>
+											<input type="text" name="email" class="xlarge branded-input" />
+										</div>
+									
+									</fieldset>
+									
+									<div class="actions">
+										<button type="submit">Save &amp; Close</button>
+										( <a href="#/contacts" class="cancel">Cancel</a> )
+									</div>
+								
+								</form>
+							
+							
+							</li>
+							<!-- END: Contact Edit View. -->
+						
+						</ul>
+						<!-- END: Contacts Content Views. -->
+					
+					
+					</li>
+					<!-- END: Primary Content Stage :: Contacts. -->
+					
+					<!-- BEGIN: Primary Content Stage :: Documentation. -->
+					<li rel="documentation" class="primary-content-stage">
+					
+					
+						<h1>
+							Documentation
+						</h1>
+					
+						<p>
+							This is the documentation page.
+						</p>
+						
+						<p>
+							<em>Coming soon....</em>
+						</p>
+					
+					
+					</li>
+					<!-- END: Primary Content Stage :: Documentation. -->
+					
+					<!-- BEGIN: Primary Content Stage :: Resources. -->
+					<li rel="resources" class="primary-content-stage">
+					
+					
+						<h1>
+							Resources
+						</h1>
+					
+						<p>
+							This is the resources page.
+						</p>
+					
+						<p>
+							<em>Coming soon....</em>
+						</p>
+					
+					
+					</li>
+					<!-- END: Primary Content Stage :: Resources. -->
+					
+					<!-- BEGIN: Primary Content Stage :: Page Not Found. -->
+					<li rel="404" class="primary-content-stage">
+					
+					
+						<h1>
+							404 - Page Not Found
+						</h1>
+					
+						<p>
+							Sorry, but the page you requested could not be found.
+						</p>
+						
+						<p>
+							Try going back to the <a href="#/home">home page</a>.
+						</p>
+					
+					
+					</li>
+					<!-- END: Primary Content Stage :: Page Not Found. -->
+				
+				</ul>
+				<!-- END: Primary Content Stages. -->
+				
+			
+			</div>
+			<!-- END: Site Body Content. -->
+			
+		</div>
+		<!-- END: Site Body. -->
+	
+	
+		<!-- BEGIN: Site Footer. -->
+		<div id="site-footer">
+		
+			<!-- BEGIN: Site Footer Content. -->
+			<div id="site-footer-content">
+			
+				<p id="site-copyright">
+					www.corMVC.com &copy; <span class="copyright-year">2009</span>, 
+					Ben Nadel and <a href="http://www.bennadel.com" target="_blank">www.bennadel.com</a>.
+				</p>
+				
+			</div>
+			<!-- END: Site Footer Content. -->
+		
+		</div>
+		<!-- END: Site Footer. -->
+	
+	</div>
+	<!-- END: Site Wrapper. -->
+
+</body>
+</html>

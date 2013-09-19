@@ -1,0 +1,105 @@
+
+#contact-list-header {
+	background-color: #2B1812 ;
+	color: #F5BE44 ;
+	font-size: 150% ;
+	height: 50px ;
+	line-height: 48px ;
+	margin-bottom: 1em ;
+	padding: 0px 20px 0px 20px ;
+	}
+
+#contact-list-header form {
+	float: left ;
+	}
+	
+#contact-list-header input {
+	background-color: #482C21 ;
+	border: 1px solid #663E2F ;
+	color: #FFFFFF ;
+	font-size: 100% ;
+	margin-top: -2px ;
+	padding: 0px 0px 1px 5px ;
+	width: 440px ;
+	}
+	
+#contact-list-header a {
+	color: #F5BE44 ;
+	float: right ;
+	text-decoration: none ;
+	}
+
+#contact-list-header span.contrast {
+	color: #FFFFFF ;
+	}
+	
+#contact-list {
+	color: #333333 ;
+	font-size: 110% ;
+	list-style-type: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+#contact-list li {
+	margin: 0px 0px 15px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+#contact-list li.contact {
+	background-color: #DBDAC1 ;
+	padding: 7px 10px 7px 10px ;
+	width: 712px ;
+	}
+	
+#contact-list li.last-contact {
+	margin-bottom: 0px ;
+	}
+
+#contact-list li.contact a {
+	color: #333333 ;
+	}
+	
+#contact-list div.summary {
+	float: left ;
+	font-weight: bold ;
+	}
+	
+#contact-list div.summary a.name {
+	text-decoration: none ;
+	}
+	
+#contact-list div.actions {
+	float: right ;
+	font-weight: bold ;
+	}
+	
+#contact-list dl.details {
+	clear: both ;
+	display: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 10px 0px 5px 0px ;
+	width: 712px ;
+	}
+	
+#contact-list dl.details dt {
+	clear: both ;
+	color: #797746 ;
+	float: left ;
+	font-weight: bold ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	text-align: right ;
+	width: 70px ;
+	}
+	
+#contact-list dl.details dd {
+	float: left ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 10px ;
+	width: 620px ;
+	}
+	
+#contact-form {}
+
+	

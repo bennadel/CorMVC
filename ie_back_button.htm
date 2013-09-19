@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script type="text/javascript">
+		var hrefParts = window.location.href.split( "=" );
+		var hash = hrefParts[ hrefParts.length - 1 ];
+		if (window.top.application.currentLocation != hash){
+			window.top.application.setLocation( hash );
+		}
+	</script>
+</head>
+<body>
+	<!-- IE6 Back Button Fix. -->
+</body>
+</html>

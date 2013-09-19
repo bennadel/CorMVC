@@ -1,0 +1,21 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+table {
+	line-height: 1.6em ;
+	margin: 0px 0px 1.6em 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+form {
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+

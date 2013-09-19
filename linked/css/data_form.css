@@ -1,0 +1,59 @@
+
+div.form-errors {
+	background-color: #FEF1F1 ;
+	border: 1px dotted #9E0B0F ;
+	color: #9E0B0F ;
+	margin-bottom: 1.5em ;
+	padding: 10px 10px 10px 10px ;
+	}
+	
+div.form-errors h3 {
+	font-size: 100% ;
+	font-weight: bold ;
+	margin-bottom: .6em ;
+	}
+	
+div.form-errors ul {
+	margin-bottom: 0px ;
+	}
+	
+div.form-errors li {
+	margin-bottom: 3px ;
+	}
+
+input.branded-input {
+	border: 1px solid #333333 ;
+	border-bottom-color: #999999 ;
+	border-right-color: #999999 ;
+	font-size: 120% ;
+	padding: 3px 6px 3px 6px ;
+	}
+	
+input.large {
+	width: 300px ;
+	}
+	
+input.xlarge {
+	width: 600px ;
+	}
+	
+form.data-form {
+	margin-bottom: 1.5em ;
+	}
+	
+form.data-form fieldset {
+	border-width: 0px 0px 0px 0px ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	}
+	
+form.data-form div.entry {
+	margin-bottom: 15px ;
+	}
+	
+form.data-form div.entry label {
+	color: #666666 ;
+	display: block ;
+	font-weight: bold ;
+	margin-bottom: 2px ;
+	}

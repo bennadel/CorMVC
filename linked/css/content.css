@@ -1,0 +1,39 @@
+
+/* From jQuery UI CSS Framework. */
+.clear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clear { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .clear { height:1%; }
+.clear { display:block; }
+
+h1, 
+h2,
+h3,
+h4,
+h5 {
+	font-family: arial, helvetica ;
+	font-weight: 400 ;
+	}
+	
+h1 {
+	font-size: 180% ;
+	margin-bottom: .5em ;
+	}
+	
+h2 {
+	font-size: 150% ;
+	margin-bottom: .5em ;
+	}
+	
+ul,
+ol {
+	margin-left: 30px ;
+	}
+	
+li {
+	margin-bottom: 5px ;
+	}
+	
+a {
+	color: #9E0B0F ;
+	}
